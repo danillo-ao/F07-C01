@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pokedex - RM85113</string>
+
+    <string name="pokedex_title">Pokedex</string>
+    <string name="about_title">Sobre</string>
+    <string name="course_title">Jogos Digitais - FIAP</string>
+
+    <string name="home_pokedex_button">Pokedex</string>
+    <string name="home_about_button">Sobre</string>
+    <string name="home_course_button">Curso</string>
+    <string name="pokedex_search_hint">Nome ou número do Pokemon</string>
+    <string name="pokedex_search_error">Não foi possível encontrar este pokemon, por favor, verifique a sua busca e tente novamente.</string>
+    <string name="pokedex_search_instructions">Pesquise no input acima o pokemon desejado, utilizando o seu número ou o seu nome.</string>
+</resources>

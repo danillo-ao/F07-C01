@@ -29,6 +29,7 @@
             android:text="@string/home_pokedex_button"
             android:visibility="visible"
             android:backgroundTint="@color/secondary"
+            android:textColor="@color/white"
         />
 
         <Button
@@ -37,6 +38,7 @@
             android:layout_height="@dimen/button_height"
             android:text="@string/home_about_button"
             android:backgroundTint="@color/secondary"
+            android:textColor="@color/white"
             />
 
         <Button
@@ -45,6 +47,7 @@
             android:layout_height="@dimen/button_height"
             android:text="@string/home_course_button"
             android:backgroundTint="@color/secondary"
+            android:textColor="@color/white"
             />
 
     </LinearLayout>

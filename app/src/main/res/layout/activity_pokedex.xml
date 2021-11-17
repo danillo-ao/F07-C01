@@ -33,7 +33,9 @@
                     android:backgroundTint="@color/secondary"
                     app:icon="@drawable/ic_round_arrow_back"
                     app:iconGravity="textStart"
-                    app:iconPadding="0dp" />
+                    app:iconPadding="0dp"
+                    app:iconTint="@color/white"
+                    />
 
 
                 <TextView
@@ -75,6 +77,8 @@
                         android:hint="@string/pokedex_search_hint"
                         android:inputType="textPersonName"
                         android:padding="10dp"
+                        android:textColorHint="@color/gray"
+                        android:textColor="@color/black"
                     />
 
                     <com.google.android.material.button.MaterialButton
@@ -89,6 +93,7 @@
                         app:icon="@drawable/ic_round_clear_24"
                         app:iconGravity="textStart"
                         app:iconPadding="0dp"
+                        app:iconTint="@color/white"
                     />
 
                     <com.google.android.material.button.MaterialButton
@@ -102,6 +107,7 @@
                         app:icon="@drawable/ic_round_search_24"
                         app:iconGravity="textStart"
                         app:iconPadding="0dp"
+                        app:iconTint="@color/white"
                         />
                 </LinearLayout>
 

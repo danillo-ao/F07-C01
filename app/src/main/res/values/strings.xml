@@ -5,6 +5,9 @@
     <string name="about_title">Sobre</string>
     <string name="course_title">Jogos Digitais - FIAP</string>
 
+    <string name="pokemon_label">POKEMON</string>
+    <string name="pokemon_id_label">ID</string>
+
     <string name="home_pokedex_button">Pokedex</string>
     <string name="home_about_button">Sobre</string>
     <string name="home_course_button">Curso</string>

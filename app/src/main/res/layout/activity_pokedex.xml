@@ -133,27 +133,40 @@
 
                     <ImageView
                         android:id="@+id/pokemonImage"
-                        android:layout_width="wrap_content"
+                        android:layout_width="220dp"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
                     >
                         <LinearLayout
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center_horizontal"
+                            android:orientation="vertical"
                         >
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Arcanine"
+                                android:text="@string/pokemon_label"
                                 android:textStyle="bold"
                                 android:textColor="@color/white"
                                 android:textSize="20dp"
+                                android:textAlignment="center"
+                                />
+                            <TextView
+                                android:id="@+id/pokemonName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:textSize="20dp"
+                                android:textAlignment="center"
                             />
                         </LinearLayout>
                         <LinearLayout
@@ -161,14 +174,26 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center_horizontal"
+                            android:orientation="vertical"
                         >
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="#059"
+                                android:text="@string/pokemon_id_label"
                                 android:textStyle="bold"
                                 android:textColor="@color/white"
                                 android:textSize="20dp"
+                                android:textAlignment="center"
+                                />
+                            <TextView
+                                android:id="@+id/pokemonId"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:textSize="20dp"
+                                android:textAlignment="center"
                             />
                         </LinearLayout>
 
